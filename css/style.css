@@ -138,7 +138,7 @@
      font-size: 90px;
  }
 
- .content .textbox h2 {
+.textbox h2 {
      color: #333;
      font-size: 4em;
      line-height: 1.4em;
@@ -148,7 +148,7 @@
 
 .textbox span {
      color: #4C3000;
-     font-size: 6em;
+     font-size: 2em;
      font-weight: 900;
  }
 
