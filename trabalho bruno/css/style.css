@@ -1,0 +1,228 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+     font-family: 'Poppins', 'Sans-serif';
+     box-sizing: border-box;
+ }
+
+.textbox span {
+     animation-name: brilho;
+     animation-duration: 7s;
+     animation-timing-function: ease-in-out;
+     animation-iteration-count: infinite;
+ }
+
+.textbox span:nth-of-type(1) {
+     animation-delay: 0.25s;
+ }
+
+.textbox span:nth-of-type(2) {
+     animation-delay: 0.50s;
+ }
+
+.textbox span:nth-of-type(3) {
+     animation-delay: 0.75s;
+ }
+
+.textbox span:nth-of-type(4) {
+     animation-delay: 1s;
+ }
+.textbox span:nth-of-type(5) {
+     animation-delay: 1.25s;
+ }
+
+.textbox span:nth-of-type(6) {
+     animation-delay: 1.50s;
+ }
+
+.textbox span:nth-of-type(7) {
+     animation-delay: 1.75s;
+ }
+
+.textbox span:nth-of-type(8) {
+     animation-delay: 2s;
+ }
+
+.textbox span:nth-of-type(9) {
+     animation-delay: 2.25s;
+ }
+
+.textbox span:nth-of-type(10) {
+     animation-delay: 2.50s;
+ }
+
+.textbox span:nth-of-type(11) {
+     animation-delay: 2.75s;
+ }
+.textbox span:nth-of-type(12) {
+    animation-delay: 3s;
+}
+.textbox span:nth-of-type(13) {
+    animation-delay: 3.25s;
+}
+.textbox span:nth-of-type(14) {
+    animation-delay: 3.50s;
+}
+ @keyframes brilho {
+     0% {
+         color: #fff;
+     }
+
+     10%,
+     90% {
+         color: #4C3000;
+         text-shadow: none;
+
+     }
+ }
+
+ .container {
+     width: 1140px;
+     max-width: 100%;
+     margin: auto;
+ }
+
+ .clearfix::before,
+ .clearfix::after {
+     content: "";
+     display: table;
+     clear: both;
+ }
+
+
+ section {
+     position: relative;
+     min-height: 100vh;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: #fff;
+ }
+
+ header {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     padding: 20px 100px;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ header a .logo {
+     height: 280px;
+     width: 280px;
+ }
+
+ header ul {
+     position: relative;
+     display: flex;
+ }
+
+ header li {
+     list-style: none;
+ }
+
+ header ul li a {
+     display: inline-block;
+     color: #333;
+     font-weight: 400;
+     text-decoration: none;
+
+ }
+
+ header ul li a {
+     font-size: 90px;
+ }
+
+ .content .textbox h2 {
+     color: #333;
+     font-size: 4em;
+     line-height: 1.4em;
+     font-weight: 400;
+
+ }
+
+ .content .textbox h2 span {
+     color: #4C3000;
+     font-size: 1.2em;
+     font-weight: 900;
+ }
+
+
+ .thumb {
+     position: absolute;
+     left: 50%;
+     bottom: 20px;
+     transform: translate(-50%);
+     display: flex;
+ }
+
+ .thumb li {
+     list-style: none;
+     display: inline-block;
+     margin: 0 20px;
+     cursor: pointer;
+     transition: 0.5s;
+ }
+
+ .thumb li:hover {
+     transform: translateY(-15px);
+ }  
+
+ .thumb li img {
+     align-items: center;
+     border-radius: 250px;
+     width: 250px;
+     height: 250px;
+ }
+
+ i {
+     padding: 30px; 
+     height: 150px;
+     width: 150px;
+ }
+ .imgbox2 img {
+     border-radius: 50px;
+     height: 350px;
+     width: 350px;
+
+ }
+
+ .imgbox2 p {
+     text-align: center;
+     color: #333;
+     font-size: 25px;
+     line-height: 1.4em;
+     font-weight: 400;
+
+ }
+
+ .imgbox2 h2 {
+     color: #333;
+ }
+ .imgbox2 a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background-color: #4C3000;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+ .rodape {
+     margin-top: 10px;
+     padding: 10px;
+     min-width: 40vh;
+     background: #4C3000;
+     text-align: center;
+     color: aquamarine;
+ }
