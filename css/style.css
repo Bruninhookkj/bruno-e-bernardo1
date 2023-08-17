@@ -133,9 +133,11 @@
      text-decoration: none;
 
  }
+
  header ul li a {
      font-size: 90px;
  }
+
 .textbox h2 {
      color: #333;
      font-size: 4em;
@@ -143,11 +145,13 @@
      font-weight: 400;
 
  }
+
  .textbox h2 span {
      color: #4C3000;
      font-size: 1.2em;
      font-weight: 900;
  }
+
 
  .thumb {
      position: absolute;
